@@ -44,3 +44,30 @@ EXIT setup: ```cd```
 
 __Disable the setup logging:__
 Disable: ```conf node R1 traceoptions flag all```
+
+## Custom CLI Library LIBCLI
+
+- LIBCLI parse CLI tokens
+- LIBCLI validate CLI foramts
+- LIBCLI invoke appropriate handler (e.g for L2,L3,L4 protocols)
+
+## Libs the CLI use
+
+- Linked-list
+- Tress
+- Timers
+- CLIs
+- Schedulers
+- TLV encoders
+- BIT manipulation MACROS
+
+## TLV encoding (Type, Legth, Value)
+
+__Type:__ 
+A numeric code that identifies the type of data being encoded. For example, a type code might indicate whether the data represents a message header, a command, or a data payload.
+
+__Length:__ 
+The length of the data in bytes. This field specifies how many bytes follow the Length field to make up the data value.
+
+__Value:__ 
+The actual data being encoded. This field contains the bytes that make up the data value.
