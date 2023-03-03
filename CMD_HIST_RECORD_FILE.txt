@@ -1,0 +1,13 @@
+show help
+.
+.
+show help
+?
+?
+cls
+?
+?
+show help
+show help
+show help
+show help
