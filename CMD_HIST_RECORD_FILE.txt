@@ -11,3 +11,48 @@ show help
 show help
 show help
 show help
+show help
+show help
+show help
+show topo
+show node R0 rt
+sho history
+sh history
+s history
+sho history
+show topo
+show history
+show node R1 r
+show node R1 arp
+show node R0 arp
+run node R0 ping 20.1.1.2
+run node R1 ping 122.1.1.3
+show topo
+show node R1 rt
+show top
+show top
+show top
+show node R1 rt
+run node R1 ping 122.1.1.2
+show node R1 arp
+run node R1 ping 122.1.1.3
+run node R1 ping 122.1.1.5
+show node R2 arp
+show topo
+show node R1 arp
+show node R2 arp
+run node R1 ping 122.1.1.2
+show node R1 arp
+show node R1 arp
+show node R1 arp
+show node R2 arp
+run node R1 ping 122.1.1.4
+run node R2 ping 122.1.1.3
+show node R2 arp
+conf node R1 traceoption flag /
+?
+all
+cd
+run node R1 ping 122.1.1.4
+run node R1 ping 122.1.1.4
+run node R1 ping 122.1.1.4

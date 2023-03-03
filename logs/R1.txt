@@ -1,0 +1,39 @@
+L3 Fwd : (R1)eth7 --> 40.1.1.1
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> ff:ff:ff:ff:ff:ff ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_BROAD_REQ 48:f9:ed:f3:00:00 -> 00:00:00:00:00:00 40.1.1.2 -> 40.1.1.1
+
+R1(eth7) <-- 
+Eth hdr : 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_REPLY 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 40.1.1.1 -> 40.1.1.2
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> 4a:56:56:25:00:00 ETH_IP Vlan: 0 PL: 20B
+IP Hdr : TL: 20B PRO: ICMP_PRO 122.1.1.1 -> 122.1.1.4 ttl: 64
+L3 Fwd : (R1)eth7 --> 40.1.1.1
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> ff:ff:ff:ff:ff:ff ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_BROAD_REQ 48:f9:ed:f3:00:00 -> 00:00:00:00:00:00 40.1.1.2 -> 40.1.1.1
+
+R1(eth7) <-- 
+Eth hdr : 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_REPLY 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 40.1.1.1 -> 40.1.1.2
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> 4a:56:56:25:00:00 ETH_IP Vlan: 0 PL: 20B
+IP Hdr : TL: 20B PRO: ICMP_PRO 122.1.1.1 -> 122.1.1.4 ttl: 64
+L3 Fwd : (R1)eth7 --> 40.1.1.1
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> ff:ff:ff:ff:ff:ff ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_BROAD_REQ 48:f9:ed:f3:00:00 -> 00:00:00:00:00:00 40.1.1.2 -> 40.1.1.1
+
+R1(eth7) <-- 
+Eth hdr : 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 ARP_MSG Vlan: 0 PL: 28B
+ARP Hdr : Arp Type: ARP_REPLY 4a:56:56:25:00:00 -> 48:f9:ed:f3:00:00 40.1.1.1 -> 40.1.1.2
+
+R1(eth7) --> 
+Eth hdr : 48:f9:ed:f3:00:00 -> 4a:56:56:25:00:00 ETH_IP Vlan: 0 PL: 20B
+IP Hdr : TL: 20B PRO: ICMP_PRO 122.1.1.1 -> 122.1.1.4 ttl: 64
