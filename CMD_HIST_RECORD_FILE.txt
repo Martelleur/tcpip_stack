@@ -1,0 +1,10 @@
+?
+show ?
+.
+/
+show /
+cd
+show help
+?
+show ?
+.

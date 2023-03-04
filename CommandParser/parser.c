@@ -325,6 +325,7 @@ command_parser(void){
 
     CMD_PARSE_STATUS status = UNKNOWN;
 
+    printf("Spike CMD CLI - Can thsi be used");
     printf("run - \'show help\' cmd to learn more");
     place_console(1);
     memset(&command_code_tlv, 0, sizeof(tlv_struct_t));
