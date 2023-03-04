@@ -1,5 +1,9 @@
 # Notes the CLI Program PartA NetWork in C
 
+## What 
+A Cli programs that simulate network topolgy and communication using custom
+implmented protocols.
+
 ## Build executable
 
 ```make all -f <make_file>``, or
